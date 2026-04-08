@@ -1,0 +1,43 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+portfolio_env/
+ENV/
+
+# Secrets - NEVER COMMIT
+secrets/
+*.json
+!config/config.example.json
+.env
+*.key
+*.enc
+**/browser_session/
+
+# Data files
+data/*.json
+data/*.csv
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Backup
+*.bak
+*.tmp
+archive/
+
+# ChromeDriver cache
+.wdm/

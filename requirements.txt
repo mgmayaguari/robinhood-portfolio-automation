@@ -1,0 +1,19 @@
+# Robinhood API
+robin-stocks==3.0.5
+
+# Security & Encryption
+cryptography==41.0.7
+pyotp==2.9.0
+
+# Google Sheets (we'll add this later)
+# google-auth==2.23.4
+# google-api-python-client==2.108.0
+
+# Market Data (we'll add this later)
+# yfinance==0.2.32
+
+# Utilities
+python-dotenv==1.0.0
+
+selenium==4.15.2
+webdriver-manager==4.0.1

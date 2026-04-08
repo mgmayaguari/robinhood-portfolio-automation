@@ -1,0 +1,14 @@
+{
+  "spreadsheet_id": "YOUR_GOOGLE_SHEETS_ID_HERE",
+  "sheet_name": "Portfolio",
+  "google_service_account_file": "./config/service-account.json",
+  "features": {
+    "extract_fair_value": true,
+    "extract_dividends": true,
+    "create_snapshots": true
+  },
+  "browser": {
+    "headless": false,
+    "wait_time_seconds": 5
+  }
+}
